@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<folders>
+	<folder>
+		<title>OPS</title>
+		<snippets>
+			<snippet>
+				<title>Owner approval TAP</title>
+				<content>Hi &lt;Name&gt;
+
+Thank you for contacting Fireblocks support, 
+
+In order to proceed with the TAP changes, we require to have written workspace owner approval in this service request.</content>
+			</snippet>
+			<snippet>
+				<title>Cosigner script request</title>
+				<content>Thank you for contacting Fireblocks support,
+ 
+I would like to let you know this service request has been assigned to my care.
+
+Please find the link to download the latest available cosigner script version 1.1.5 below: 
+
+&quot;__PUT_SCRIPT_LINK_HERE__&quot;
+
+Should you require assistance during cosigner setup, please do not hesitate to contact us via slack channel, to get more prompt reply please tag our support team using @support, @here or @channel tags.</content>
+			</snippet>
+			<snippet>
+				<title>TAP updated</title>
+				<content>Hi &lt;Name&gt;,
+
+Hoping this email finds you well, 
+
+The policy was successfully applied to your workspace as per your request.
+
+Please note, the owner as well as the admins can always view and review the policy via https://console.fireblocks.io/v2/settings/policy
+
+Have a wonderful day,</content>
+			</snippet>
+			<snippet>
+				<title>Confirmation policy updated</title>
+				<content>Hi &lt;Name&gt;, 
+
+Thank you for contacting Fireblocks support, 
+
+The confirmation policy has been updated per your request.
+
+Please do no hesitate to contact us, in case of any furhter assistance will be required.</content>
+			</snippet>
+			<snippet>
+				<title>AML udpated</title>
+				<content>Hi &lt;Name&gt;, 
+
+Thank you for contacting Fireblocks support, 
+
+The AML policy was successfully applied to your workspace as per your request.
+
+Please do no hesitate to contact us, in case of any furhter assistance will be required.</content>
+			</snippet>
+			<snippet>
+				<title>Gas station enabled</title>
+				<content>Hi &lt;Name&gt;,
+
+Thank you for contacting Fireblocks support, 
+
+I have enabled the &quot;Gas Station&quot; for the workspace.
+
+Please note, this connection should be approved by the Admin Quorum via mobile devices.</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>Front line</title>
+		<snippets>
+			<snippet>
+				<title>OPS TAP change</title>
+				<content>You can submit a request to change your TAP rules using below link:
+
+https://support.fireblocks.io/hc/en-us/requests/new?ticket_form_id=360003372200&amp;tf_360023089139=workspace_policies&amp;tf_360022983020=transaction_policy
+
+Please make sure to: 
+
+1/ Have a written owner approval in the service request in order for us to proceed the request.
+
+2/ Highlight with color/bolding the relevant changes in the TAP, so it will be easier for our team to understand what are the current rules and what are the requested ones.
+
+Please note, the SLA for this type of request is 3-5 business days.</content>
+			</snippet>
+			<snippet>
+				<title>OPS Add token</title>
+				<content>You can submit a request to our OPS team to add an ERC20 token, using the following link: 
+
+https://support.fireblocks.io/hc/en-us/requests/new?ticket_form_id=360003372200&amp;tf_3600[…]settings&amp;tf_360023089159=add_support_for_a_new_erc20_token
+
+Please note, the SLA for this type of request is 3-5 business days.</content>
+			</snippet>
+			<snippet>
+				<title>Owner recovery</title>
+				<content>Hi &lt;Owner&gt;
+
+I have initiated a recovery procedure please follow these steps:
+
+Make sure you are logged out from the web console
+
+Install a fresh copy of your FB app, using the official app store(not from backup\cloud)
+
+Log back into the web console, scan the QR code with the newly downloaded app
+
+From here, follow the steps on the app to complete the MPC keys enrollment
+
+&lt;Optional&gt;
+
+Once done, log in to the next workspace and from the App’s options menu button on the top right corner &gt; “Linked Users”  &gt; use “+”  then “Scan QR” and scan the code from the next workspace.</content>
+			</snippet>
+			<snippet>
+				<title>Reset User not Owner</title>
+				<content>Please see the following guide and ask your owner to reset your device:
+
+https://support.fireblocks.io/hc/en-us/articles/4407786072082-Re-enrolling-Mobile-Devices</content>
+			</snippet>
+			<snippet>
+				<title>Reset 2FA not Owner</title>
+				<content>Please see the following guide and ask your owner to reset 2FA for your user following below guide: 
+
+https://support.fireblocks.io/hc/en-us/articles/360021707679-Resetting-A-User-s-Two-Factor-Authentication-2FA-</content>
+			</snippet>
+			<snippet>
+				<title>Mobile logs request</title>
+				<content>Please share your device logs by clicking on the 3 vertical dots in your Fireblocks mobile app (or gear icon if you&apos;re on iOS) then on &quot;Send Logs&quot;.</content>
+			</snippet>
+			<snippet>
+				<title>Mobile App update</title>
+				<content>Based on mobile logs you&apos;ve shared, we noticed your Fireblocks mobile application is not up-to-date. 
+
+We always recommend to update the app to the latest available version, to make sure the issue you are facing is not the one, which was already fixed in our latest software release.</content>
+			</snippet>
+			<snippet>
+				<title>Mobile Device Minimum Requirements</title>
+				<content>The issue you are expiriencing might be because of not meeting the mobile device minimum requirements. 
+
+The relevant information is described in the below article: 
+
+https://support.fireblocks.io/hc/en-us/articles/360019873120-Mobile-Device-Minimum-Requirements</content>
+			</snippet>
+			<snippet>
+				<title>Cosigner script request</title>
+				<content>Thank you for contacting Fireblocks support,
+ 
+I would like to let you know this service request has been assigned to my care.
+
+Please find the link to download the latest available cosigner script version 1.1.5 below: 
+
+&quot;__PUT_SCRIPT_LINK_HERE__&quot;
+
+Should you require assistance during cosigner setup, please do not hesitate to contact us via slack channel, to get more prompt reply please tag our support team using @support, @here or @channel tags.</content>
+			</snippet>
+			<snippet>
+				<title>Cosigner logs</title>
+				<content>Could you please share cosigner logs by running and share the output of the physicalDeviceId you will get:
+
+./cosigner logs 50000</content>
+			</snippet>
+			<snippet>
+				<title>No support / Product request</title>
+				<content>Unfortunatelly we do not this option at the moment. 
+
+I forwarded your request to our product team to decide on adding support to the feature you have requested.</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>Support Full Time</title>
+		<snippets>
+			<snippet>
+				<title>Case assinged</title>
+				<content>Hi &lt;Name&gt;,
+
+Thank you for contacting Fireblocks support, 
+
+I would like to let you know this service request has been assigned to my care.</content>
+			</snippet>
+			<snippet>
+				<title>Case closure</title>
+				<content>Hi &lt;Name&gt;, 
+
+I will proceed with closure process of this service request. 
+
+Should you require further assistance, please do not hesitate to contact us by submitting a service request or tagging our support team by adding @support, @channel or @here to your message. 
+
+For your convinience, we are monitoring our Slack channels 24/7.</content>
+			</snippet>
+		</snippets>
+	</folder>
+</folders>
